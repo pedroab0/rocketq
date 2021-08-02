@@ -4,7 +4,7 @@
     "description": "",
     "main": "src/server.js",
     "scripts": {
-        "start": "npm run .",
+        "start": "node run .",
         "init-db": "node src/db/init.js"
     },
     "keywords": [],
