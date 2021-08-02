@@ -106,3 +106,14 @@ button,
     bottom: -15rem;
     right: 5.6rem;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    .content {
+        display: grid;
+        grid-template-columns: 50% 45%;
+        grid-template-rows: 17rem 1fr;
+    }
+}
