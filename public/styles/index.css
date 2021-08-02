@@ -116,4 +116,9 @@ button,
         grid-template-columns: 50% 45%;
         grid-template-rows: 17rem 1fr;
     }
+    
+    #bg {
+        background-position-x: -1rem;
+    }
+}
 }
