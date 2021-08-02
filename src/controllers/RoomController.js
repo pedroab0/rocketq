@@ -22,7 +22,7 @@ module.exports = {
             // SE isRoom FOR FALSE ENTRA NO IF, SE FOR TRUE, RODA O WHILE NOVAMENTE
             if (!isRoom) {
                 // INSERE A SALA E A SENHA NO BANCO
-                await db.run(`INSERT INTO rooms (id, pass) VALUES (${parseInt(roomID)}, "${pass}")`);
+                await db.run(`INSERT INTO rooms (id, pass) VALUES (${parseInt(roomID)}, ${pass})`);
             }
         }
 
