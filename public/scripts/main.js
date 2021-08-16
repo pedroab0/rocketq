@@ -20,7 +20,7 @@ deleteButtons.forEach((button) => {
 
 function handleClick(event, check = true) {
     event.preventDefault();
-    const text = check ? "Marcar como lida" : "Excluir";
+    const text = check ? "Lida" : "Excluir";
     const slug = check ? "check" : "delete";
     const roomID = document.querySelector("#room-id").dataset.id;
     const questionID = event.target.dataset.id;
